@@ -18,8 +18,8 @@ boolean connectWifi();
 //callback functions
 void firstLightChanged(uint8_t brightness);
 // WiFi Credentials
-const char* ssid = "";
-const char* password = "1234567";
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 String Device_1_Name = "unlock computer";
 boolean wifiConnected = false;
 Espalexa espalexa;
