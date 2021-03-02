@@ -1,4 +1,5 @@
 # PCnfc
+
 For many days I have been curious about making a device that unlocks my pc using a smartphone. I have been looking for ways to unlock the machine. I have tested messenger bots sends HTTP requests, I tested BLE protocols but one day I have stumbled upon #NFC payment interface. I personally use #iphone, it uses #applepay to emulate cards so, I started researching about its functionality and I started to interface required components to read it values, I strangely encountered that these payment interfaces always generates a new set of serial numbers every single time. That's fascinating.
 
 I started to gather related code examples and worked on them.  I noticed a common thing in those serial numbers. The first two digits of every serial number is always the same so, I came up with a logic that only accepts those two digits and triggers a #ducky script that injects keystrokes.
