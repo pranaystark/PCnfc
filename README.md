@@ -12,7 +12,6 @@ Disclaimer. Except NFC tag use remaining possible usage demonstrated in the vide
 # **Do not use it for any security related applications!**
 
 
-I have used 
 ## Requirements
 You have to install Arduino IDE 1.6.10 or later. Links are listed below.
 * **Arduino** > **Preferences** > "Additional Boards Manager URLs:" and add: **http://arduino.esp8266.com/stable/package_esp8266com_index.json** and for programmming Attiny85 add this **http://digistump.com/package_digistump_index.json** also.
